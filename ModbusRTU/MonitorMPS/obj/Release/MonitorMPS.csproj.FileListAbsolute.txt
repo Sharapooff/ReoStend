@@ -1,0 +1,45 @@
+D:\Development\C#\ModbusRTU\MonitorMPS\bin\Release\MonitorMPS.exe.config
+D:\Development\C#\ModbusRTU\MonitorMPS\bin\Release\MonitorMPS.exe
+D:\Development\C#\ModbusRTU\MonitorMPS\bin\Release\MonitorMPS.pdb
+D:\Development\C#\ModbusRTU\MonitorMPS\obj\Release\MonitorMPS.csprojResolveAssemblyReference.cache
+D:\Development\C#\ModbusRTU\MonitorMPS\obj\Release\MainWindow.baml
+D:\Development\C#\ModbusRTU\MonitorMPS\obj\Release\MainWindow.g.cs
+D:\Development\C#\ModbusRTU\MonitorMPS\obj\Release\App.g.cs
+D:\Development\C#\ModbusRTU\MonitorMPS\obj\Release\MonitorMPS_MarkupCompile.cache
+D:\Development\C#\ModbusRTU\MonitorMPS\obj\Release\MonitorMPS.g.resources
+D:\Development\C#\ModbusRTU\MonitorMPS\obj\Release\MonitorMPS.Properties.Resources.resources
+D:\Development\C#\ModbusRTU\MonitorMPS\obj\Release\MonitorMPS.csproj.GenerateResource.Cache
+D:\Development\C#\ModbusRTU\MonitorMPS\obj\Release\MonitorMPS.exe
+D:\Development\C#\ModbusRTU\MonitorMPS\obj\Release\MonitorMPS.pdb
+D:\Development\C#\ModbusRTU\MonitorMPS\bin\Release\ModbusSP.dll
+D:\Development\C#\ModbusRTU\MonitorMPS\bin\Release\ModbusSP.pdb
+C:\Users\Шарапов\Desktop\ModbusRTU\MonitorMPS\bin\Release\MonitorMPS.exe.config
+C:\Users\Шарапов\Desktop\ModbusRTU\MonitorMPS\bin\Release\MonitorMPS.exe
+C:\Users\Шарапов\Desktop\ModbusRTU\MonitorMPS\bin\Release\MonitorMPS.pdb
+C:\Users\Шарапов\Desktop\ModbusRTU\MonitorMPS\bin\Release\ModbusSP.dll
+C:\Users\Шарапов\Desktop\ModbusRTU\MonitorMPS\bin\Release\ModbusSP.pdb
+C:\Users\Шарапов\Desktop\ModbusRTU\MonitorMPS\obj\Release\MonitorMPS.csprojResolveAssemblyReference.cache
+C:\Users\Шарапов\Desktop\ModbusRTU\MonitorMPS\obj\Release\MainWindow.baml
+C:\Users\Шарапов\Desktop\ModbusRTU\MonitorMPS\obj\Release\MainWindow.g.cs
+C:\Users\Шарапов\Desktop\ModbusRTU\MonitorMPS\obj\Release\App.g.cs
+C:\Users\Шарапов\Desktop\ModbusRTU\MonitorMPS\obj\Release\MonitorMPS_MarkupCompile.cache
+C:\Users\Шарапов\Desktop\ModbusRTU\MonitorMPS\obj\Release\MonitorMPS.g.resources
+C:\Users\Шарапов\Desktop\ModbusRTU\MonitorMPS\obj\Release\MonitorMPS.Properties.Resources.resources
+C:\Users\Шарапов\Desktop\ModbusRTU\MonitorMPS\obj\Release\MonitorMPS.csproj.GenerateResource.Cache
+C:\Users\Шарапов\Desktop\ModbusRTU\MonitorMPS\obj\Release\MonitorMPS.exe
+C:\Users\Шарапов\Desktop\ModbusRTU\MonitorMPS\obj\Release\MonitorMPS.pdb
+D:\Visual Studio 2012\Projects\ModbusRTU\MonitorMPS\bin\Release\MonitorMPS.exe.config
+D:\Visual Studio 2012\Projects\ModbusRTU\MonitorMPS\bin\Release\MonitorMPS.exe
+D:\Visual Studio 2012\Projects\ModbusRTU\MonitorMPS\bin\Release\MonitorMPS.pdb
+D:\Visual Studio 2012\Projects\ModbusRTU\MonitorMPS\bin\Release\ModbusSP.dll
+D:\Visual Studio 2012\Projects\ModbusRTU\MonitorMPS\bin\Release\ModbusSP.pdb
+D:\Visual Studio 2012\Projects\ModbusRTU\MonitorMPS\obj\Release\MonitorMPS.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2012\Projects\ModbusRTU\MonitorMPS\obj\Release\MainWindow.baml
+D:\Visual Studio 2012\Projects\ModbusRTU\MonitorMPS\obj\Release\MainWindow.g.cs
+D:\Visual Studio 2012\Projects\ModbusRTU\MonitorMPS\obj\Release\App.g.cs
+D:\Visual Studio 2012\Projects\ModbusRTU\MonitorMPS\obj\Release\MonitorMPS_MarkupCompile.cache
+D:\Visual Studio 2012\Projects\ModbusRTU\MonitorMPS\obj\Release\MonitorMPS.g.resources
+D:\Visual Studio 2012\Projects\ModbusRTU\MonitorMPS\obj\Release\MonitorMPS.Properties.Resources.resources
+D:\Visual Studio 2012\Projects\ModbusRTU\MonitorMPS\obj\Release\MonitorMPS.csproj.GenerateResource.Cache
+D:\Visual Studio 2012\Projects\ModbusRTU\MonitorMPS\obj\Release\MonitorMPS.exe
+D:\Visual Studio 2012\Projects\ModbusRTU\MonitorMPS\obj\Release\MonitorMPS.pdb

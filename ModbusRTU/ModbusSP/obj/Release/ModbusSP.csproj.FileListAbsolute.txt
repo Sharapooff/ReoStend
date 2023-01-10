@@ -1,0 +1,14 @@
+D:\Development\C#\ModbusRTU\ModbusSP\bin\Release\ModbusSP.dll
+D:\Development\C#\ModbusRTU\ModbusSP\bin\Release\ModbusSP.pdb
+D:\Development\C#\ModbusRTU\ModbusSP\obj\Release\ModbusSP.dll
+D:\Development\C#\ModbusRTU\ModbusSP\obj\Release\ModbusSP.pdb
+C:\Users\Шарапов\Desktop\ModbusRTU\ModbusSP\bin\Release\ModbusSP.dll
+C:\Users\Шарапов\Desktop\ModbusRTU\ModbusSP\bin\Release\ModbusSP.pdb
+C:\Users\Шарапов\Desktop\ModbusRTU\ModbusSP\obj\Release\ModbusSP.csprojResolveAssemblyReference.cache
+C:\Users\Шарапов\Desktop\ModbusRTU\ModbusSP\obj\Release\ModbusSP.dll
+C:\Users\Шарапов\Desktop\ModbusRTU\ModbusSP\obj\Release\ModbusSP.pdb
+D:\Visual Studio 2012\Projects\ModbusRTU\ModbusSP\bin\Release\ModbusSP.dll
+D:\Visual Studio 2012\Projects\ModbusRTU\ModbusSP\bin\Release\ModbusSP.pdb
+D:\Visual Studio 2012\Projects\ModbusRTU\ModbusSP\obj\Release\ModbusSP.dll
+D:\Visual Studio 2012\Projects\ModbusRTU\ModbusSP\obj\Release\ModbusSP.pdb
+D:\Visual Studio 2012\Projects\ModbusRTU\ModbusSP\obj\Release\ModbusSP.csprojResolveAssemblyReference.cache

@@ -1,0 +1,18 @@
+D:\Development\C#\MonitorMeasDev\MonitorMeasDev\bin\Debug\MonitorMeasDev.exe.config
+D:\Development\C#\MonitorMeasDev\MonitorMeasDev\bin\Debug\MonitorMeasDev.exe
+D:\Development\C#\MonitorMeasDev\MonitorMeasDev\bin\Debug\MonitorMeasDev.pdb
+D:\Development\C#\MonitorMeasDev\MonitorMeasDev\obj\Debug\MonitorMeasDev.csprojResolveAssemblyReference.cache
+D:\Development\C#\MonitorMeasDev\MonitorMeasDev\obj\Debug\MonitorMeasDev.MainForm.resources
+D:\Development\C#\MonitorMeasDev\MonitorMeasDev\obj\Debug\MonitorMeasDev.Properties.Resources.resources
+D:\Development\C#\MonitorMeasDev\MonitorMeasDev\obj\Debug\MonitorMeasDev.csproj.GenerateResource.Cache
+D:\Development\C#\MonitorMeasDev\MonitorMeasDev\obj\Debug\MonitorMeasDev.exe
+D:\Development\C#\MonitorMeasDev\MonitorMeasDev\obj\Debug\MonitorMeasDev.pdb
+D:\Development\C#\MonitorMeasDev\MonitorMeasDev\bin\Debug\ModbusSP.dll
+D:\Development\C#\MonitorMeasDev\MonitorMeasDev\bin\Debug\ModbusSP.pdb
+D:\Visual Studio 2012\Projects\ModbusRTU\MonitorMeasDev\bin\Debug\MonitorMeasDev.exe.config
+D:\Visual Studio 2012\Projects\ModbusRTU\MonitorMeasDev\obj\Debug\MonitorMeasDev.exe
+D:\Visual Studio 2012\Projects\ModbusRTU\MonitorMeasDev\obj\Debug\MonitorMeasDev.pdb
+D:\Visual Studio 2012\Projects\ModbusRTU\MonitorMeasDev\obj\Debug\MonitorMeasDev.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2012\Projects\ModbusRTU\MonitorMeasDev\obj\Debug\MonitorMeasDev.MainForm.resources
+D:\Visual Studio 2012\Projects\ModbusRTU\MonitorMeasDev\obj\Debug\MonitorMeasDev.Properties.Resources.resources
+D:\Visual Studio 2012\Projects\ModbusRTU\MonitorMeasDev\obj\Debug\MonitorMeasDev.csproj.GenerateResource.Cache

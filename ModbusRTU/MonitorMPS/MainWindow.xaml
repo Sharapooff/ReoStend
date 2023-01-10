@@ -1,0 +1,143 @@
+﻿<Window x:Class="MonitorMPS.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Дисплей модуля преобразования сигналов" Height="495" Width="792" MinHeight="320" MinWidth="480" ResizeMode="NoResize" Icon="RunControl.ico">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="308*"/>
+            <RowDefinition Height="87*"/>
+        </Grid.RowDefinitions>
+        <TabControl HorizontalAlignment="Stretch" Height="Auto" VerticalAlignment="Stretch" Width="Auto" Grid.RowSpan="2">
+            <TabItem x:Name="Main" Header="Измерение" Margin="2,-2,-2,-1">
+                <Grid Background="#FFE5E5E5" Margin="0,0,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Button x:Name="Open_Btn" HorizontalAlignment="Left" Width="64" Margin="2,0,0,2" Click="Open_Btn_Click" Height="64" VerticalAlignment="Bottom" ToolTip="Открыть порт">
+                        <Image x:Name="OpenBtn_Image" Height="48" Width="48" Source="Images/Connect.png"/>
+                    </Button>
+                    <Button x:Name="OutDebug_Btn" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="64" Height="64" Margin="74,0,0,2" Click="OutDebug_Btn_Click" IsEnabled="False" ToolTip="Прочитать содержимое регистров">
+                        <Image x:Name="OutDebug_Image" Height="48" Width="48" Source="Images/help_about.png"/>
+                    </Button>
+                    <RichTextBox x:Name="Report_RTB" Margin="0,0,446,82" FontFamily="Arial"  VerticalScrollBarVisibility="Auto" Block.LineHeight="1" Width="auto" Height="auto">
+                            <FlowDocument/>
+                        </RichTextBox>
+                    <Button x:Name="Start_Btn" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="64" Height="64" Margin="146,0,0,2" Click="Start_Btn_Click" IsEnabled="False" ToolTip="Запуск цикла измерений">
+                        <Image x:Name="StartBtn_Image" Height="48" Width="48" Source="Images/runcontrol.png"/>
+                    </Button>
+                    <Label Content="Частота измерений" HorizontalAlignment="Left" VerticalAlignment="Top" Height="26" Width="117" Margin="330,10,0,0"/>
+                    <Label Content="Количество измерений" VerticalAlignment="Top" Height="26" Margin="330,114,302,0"/>
+                    <Label Content="Количество каналов" HorizontalAlignment="Left" VerticalAlignment="Top" Height="26" Width="133" Margin="330,62,0,0"/>
+                    <ComboBox x:Name="MeasFrequency_CB" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Height="22" Margin="337,36,0,0"/>
+                    <Button x:Name="FrequencySet_Btn" HorizontalAlignment="Left" Margin="479,36,0,0" VerticalAlignment="Top" Width="42" Height="22" Click="FrequencySet_Btn_Click" IsEnabled="False">
+                        <Image Height="16" Width="16" Source="Images/button_ok.png"/>
+                    </Button>
+                    <ComboBox x:Name="Channels_CB" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Height="22" Margin="337,88,0,0"/>
+                    <Button x:Name="ChannelsSet_Btn" HorizontalAlignment="Left" Margin="479,88,0,0" VerticalAlignment="Top" Width="42" Height="22" Click="ChannelsSet_Btn_Click" IsEnabled="False">
+                        <Image Height="16" Width="16" Source="Images/button_ok.png"/>
+                    </Button>
+                    <ComboBox x:Name="Points_CB" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="337,140,0,0" Height="22"/>
+                    <Button x:Name="PointsSet_Btn" HorizontalAlignment="Left" Margin="479,140,0,0" VerticalAlignment="Top" Width="42" Height="22" Click="PointsSet_Btn_Click" IsEnabled="False">
+                        <Image Height="16" Width="16" Source="Images/button_ok.png"/>
+                    </Button>
+                    <Label x:Name="Frequency_L" Content="НД" HorizontalAlignment="Left" Margin="479,10,0,0" VerticalAlignment="Top"/>
+                    <Label x:Name="Channels_L" Content="НД" HorizontalAlignment="Left" Margin="479,62,0,0" VerticalAlignment="Top"/>
+                    <Label x:Name="Points_L" Content="НД" HorizontalAlignment="Left" Margin="479,114,0,0" VerticalAlignment="Top"/>
+                    <CheckBox x:Name="Pin_Convst_Ck" Content="CONVST" HorizontalAlignment="Left" Margin="572,324,0,0" VerticalAlignment="Top" Unchecked="SetDigitOutputs" Checked="SetDigitOutputs" IsEnabled="False"/>
+                    <CheckBox x:Name="Pin_Rd_Ck" Content="Rd" HorizontalAlignment="Left" Margin="572,343,0,0" VerticalAlignment="Top" Checked="SetDigitOutputs" Unchecked="SetDigitOutputs" IsEnabled="False"/>
+                    <CheckBox x:Name="Pin_CS1_Ck" Content="CS1" HorizontalAlignment="Left" Margin="572,364,0,0" VerticalAlignment="Top" Checked="SetDigitOutputs" Unchecked="SetDigitOutputs" IsEnabled="False"/>
+                    <CheckBox x:Name="Pin_CS2_Ck" Content="CS2" HorizontalAlignment="Left" Margin="572,387,0,0" VerticalAlignment="Top" Checked="SetDigitOutputs" Unchecked="SetDigitOutputs" IsEnabled="False"/>
+                    <CheckBox x:Name="Pin_Reset_Ck" Content="Reset" HorizontalAlignment="Left" Margin="572,408,0,0" VerticalAlignment="Top" Unchecked="SetDigitOutputs" Checked="SetDigitOutputs" IsEnabled="False"/>
+                    <CheckBox x:Name="Pin_Busy1_Ck" Content="Busy_1" HorizontalAlignment="Left" Margin="668,324,0,0" VerticalAlignment="Top" IsEnabled="False"/>
+                    <CheckBox x:Name="Pin_Busy2_Ck" Content="Busy2" HorizontalAlignment="Left" Margin="668,345,0,0" VerticalAlignment="Top" IsEnabled="False"/>
+                    <CheckBox x:Name="Pin_DB0_1_Ck" Content="DB0" HorizontalAlignment="Left" Margin="572,20,0,0" VerticalAlignment="Top" IsEnabled="False"/>
+                    <CheckBox x:Name="Pin_DB1_1_Ck" Content="DB1" HorizontalAlignment="Left" Margin="572,41,0,0" VerticalAlignment="Top" IsEnabled="False"/>
+                    <CheckBox x:Name="Pin_DB2_1_Ck" Content="DB2" HorizontalAlignment="Left" Margin="572,63,0,0" VerticalAlignment="Top" IsEnabled="False"/>
+                    <CheckBox x:Name="Pin_DB3_1_Ck" Content="DB3" HorizontalAlignment="Left" Margin="572,84,0,0" VerticalAlignment="Top" IsEnabled="False"/>
+                    <CheckBox x:Name="Pin_DB4_1_Ck" Content="DB4" HorizontalAlignment="Left" Margin="572,105,0,0" VerticalAlignment="Top" IsEnabled="False"/>
+                    <CheckBox x:Name="Pin_DB5_1_Ck" Content="DB5" HorizontalAlignment="Left" Margin="572,126,0,0" VerticalAlignment="Top" IsEnabled="False"/>
+                    <CheckBox x:Name="Pin_DB6_1_Ck" Content="DB6" HorizontalAlignment="Left" Margin="572,148,0,0" VerticalAlignment="Top" IsEnabled="False"/>
+                    <CheckBox x:Name="Pin_DB7_1_Ck" Content="DB7" HorizontalAlignment="Left" Margin="572,169,0,0" VerticalAlignment="Top" IsEnabled="False"/>
+                    <CheckBox x:Name="Pin_DB8_1_Ck" Content="DB8" HorizontalAlignment="Left" Margin="572,190,0,0" VerticalAlignment="Top" IsEnabled="False"/>
+                    <CheckBox x:Name="Pin_DB9_1_Ck" Content="DB9" HorizontalAlignment="Left" Margin="572,212,0,0" VerticalAlignment="Top" IsEnabled="False"/>
+                    <CheckBox x:Name="Pin_DB10_1_Ck" Content="DB10" HorizontalAlignment="Left" Margin="572,233,0,0" VerticalAlignment="Top" IsEnabled="False"/>
+                    <CheckBox x:Name="Pin_DB11_1_Ck" Content="DB11" HorizontalAlignment="Left" Margin="572,254,0,0" VerticalAlignment="Top" IsEnabled="False"/>
+                    <CheckBox x:Name="Pin_DB12_1_Ck" Content="DB12" HorizontalAlignment="Left" Margin="572,275,0,0" VerticalAlignment="Top" IsEnabled="False"/>
+                    <CheckBox x:Name="Pin_DB13_1_Ck" Content="DB13" HorizontalAlignment="Left" Margin="572,297,0,0" VerticalAlignment="Top" IsEnabled="False"/>
+                    <CheckBox x:Name="Pin_DB0_2_Ck" Content="DB0" HorizontalAlignment="Left" Margin="668,20,0,0" VerticalAlignment="Top" IsEnabled="False"/>
+                    <CheckBox x:Name="Pin_DB1_2_Ck" Content="DB1" HorizontalAlignment="Left" Margin="668,41,0,0" VerticalAlignment="Top" IsEnabled="False"/>
+                    <CheckBox x:Name="Pin_DB2_2_Ck" Content="DB2" HorizontalAlignment="Left" Margin="668,63,0,0" VerticalAlignment="Top" IsEnabled="False"/>
+                    <CheckBox x:Name="Pin_DB3_2_Ck" Content="DB3" HorizontalAlignment="Left" Margin="668,84,0,0" VerticalAlignment="Top" IsEnabled="False"/>
+                    <CheckBox x:Name="Pin_DB4_2_Ck" Content="DB4" HorizontalAlignment="Left" Margin="668,105,0,0" VerticalAlignment="Top" IsEnabled="False"/>
+                    <CheckBox x:Name="Pin_DB5_2_Ck" Content="DB5" HorizontalAlignment="Left" Margin="668,126,0,0" VerticalAlignment="Top" IsEnabled="False"/>
+                    <CheckBox x:Name="Pin_DB6_2_Ck" Content="DB6" HorizontalAlignment="Left" Margin="668,148,0,0" VerticalAlignment="Top" IsEnabled="False"/>
+                    <CheckBox x:Name="Pin_DB7_2_Ck" Content="DB7" HorizontalAlignment="Left" Margin="668,169,0,0" VerticalAlignment="Top" IsEnabled="False"/>
+                    <CheckBox x:Name="Pin_DB8_2_Ck" Content="DB8" HorizontalAlignment="Left" Margin="668,190,0,0" VerticalAlignment="Top" IsEnabled="False"/>
+                    <CheckBox x:Name="Pin_DB9_2_Ck" Content="DB9" HorizontalAlignment="Left" Margin="668,212,0,0" VerticalAlignment="Top" IsEnabled="False"/>
+                    <CheckBox x:Name="Pin_DB10_2_Ck" Content="DB10" HorizontalAlignment="Left" Margin="668,233,0,0" VerticalAlignment="Top" IsEnabled="False"/>
+                    <CheckBox x:Name="Pin_DB11_2_Ck" Content="DB11" HorizontalAlignment="Left" Margin="668,254,0,0" VerticalAlignment="Top" IsEnabled="False"/>
+                    <CheckBox x:Name="Pin_DB12_2_Ck" Content="DB12" HorizontalAlignment="Left" Margin="668,275,0,0" VerticalAlignment="Top" IsEnabled="False"/>
+                    <CheckBox x:Name="Pin_DB13_2_Ck" Content="DB13" HorizontalAlignment="Left" Margin="668,297,0,0" VerticalAlignment="Top" IsEnabled="False"/>
+                    <Button x:Name="GetPins_Btn" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="351,0,0,2" Width="64" Click="GetPins_Btn_Click" IsEnabled="False" Height="64">
+                        <Image Height="48" Source="Images/button_ok.png" Stretch="Fill" Width="48"/>
+                    </Button>
+                    <CheckBox x:Name="ReadResults_Ck" Content="Запись результатов" HorizontalAlignment="Left" Margin="338,0,0,89" VerticalAlignment="Bottom" IsChecked="True" Checked="ReadResults_Ck_Checked" Unchecked="ReadResults_Ck_Unchecked"/>
+                    <ComboBox x:Name="EveryTooth_CB" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="337,192,0,0" Height="22"/>
+                    <Button x:Name="EveryTooth_Btn" HorizontalAlignment="Left" Margin="479,192,0,0" VerticalAlignment="Top" Width="42" Height="22" Click="EveryTooth_Btn_Click" IsEnabled="False">
+                        <Image Height="16" Width="16" Source="Images/button_ok.png"/>
+                    </Button>
+                    <Label Content="Каждый 1/X зубец" VerticalAlignment="Top" Height="26" Margin="330,166,302,0"/>
+                    <Label x:Name="EveryTooth_L" Content="НД" HorizontalAlignment="Left" Margin="479,166,0,0" VerticalAlignment="Top"/>
+                </Grid>
+            </TabItem>
+            <TabItem x:Name="Settings" Header="Настройки" Height="23" VerticalAlignment="Bottom">
+                <Grid Background="#FFE5E5E5" Margin="0,0,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0*"/>
+                        <ColumnDefinition Width="66*"/>
+                        <ColumnDefinition Width="73*"/>
+                        <ColumnDefinition Width="132"/>
+                        <ColumnDefinition Width="76*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="10*"/>
+                        <RowDefinition Height="38*"/>
+                        <RowDefinition Height="38*"/>
+                        <RowDefinition Height="38*"/>
+                        <RowDefinition Height="39*"/>
+                        <RowDefinition Height="38*"/>
+                        <RowDefinition Height="38*"/>
+                        <RowDefinition Height="130*"/>
+                    </Grid.RowDefinitions>
+                    <Label Content="Порт" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0,0.154" Height="25" Width="40" Grid.Column="1" Grid.Row="1"/>
+                    <Label Content="Скорость обмена" HorizontalAlignment="Left" Grid.Row="2" VerticalAlignment="Top" Height="26" Width="107" Grid.Column="1"/>
+                    <ComboBox x:Name="PortName_CB" Grid.Column="2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Grid.Row="1" Height="22"/>
+                    <ComboBox x:Name="Baudrate_CB" Grid.Column="2" HorizontalAlignment="Left" Grid.Row="2" VerticalAlignment="Top" Width="120" Height="22"/>
+                    <Label Content="Количество бит" Grid.Column="1" HorizontalAlignment="Left" Grid.Row="3" VerticalAlignment="Top" Height="26" Width="96"/>
+                    <ComboBox x:Name="DataBits_CB" Grid.Column="2" HorizontalAlignment="Left" Grid.Row="3" VerticalAlignment="Top" Width="120" Height="22"/>
+                    <Label Content="Количество стоп-бит" Grid.Column="1" HorizontalAlignment="Left" Grid.Row="4" VerticalAlignment="Top" Height="26" Width="126"/>
+                    <ComboBox x:Name="StopBits_CB" Grid.Column="2" HorizontalAlignment="Left" Grid.Row="4" VerticalAlignment="Top" Width="120" Height="22"/>
+                    <Label Content="Паритет" Grid.Column="1" HorizontalAlignment="Left" Grid.Row="5" VerticalAlignment="Top" Height="26" Width="55"/>
+                    <ComboBox x:Name="Parity_CB" Grid.Column="2" HorizontalAlignment="Left" Grid.Row="5" VerticalAlignment="Top" Width="120" Height="22"/>
+                    <Button x:Name="SaveSettings_Btn" HorizontalAlignment="Left" Margin="45,40,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-0.627,-0.591" Height="72" Click="SaveSettings_Btn_Click" Grid.Row="7" Grid.Column="4">
+                        <Image Height="62" Width="65" Source="Images/button_ok.png"/>
+                    </Button>
+                    <Label Content="Порт" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0,0.154" Height="25" Width="40" Grid.Column="3" Grid.Row="1"/>
+                    <Label Content="Скорость обмена" HorizontalAlignment="Left" Grid.Row="2" VerticalAlignment="Top" Height="26" Width="107" Grid.Column="3"/>
+                    <ComboBox x:Name="PortName_2_CB" Grid.Column="4" HorizontalAlignment="Left" Width="120" Grid.Row="1" Margin="0,0,0,16"/>
+                    <ComboBox x:Name="Baudrate_2_CB" Grid.Column="4" HorizontalAlignment="Left" Grid.Row="2" VerticalAlignment="Top" Width="120" Height="22"/>
+                    <Label Content="Количество бит" Grid.Column="3" HorizontalAlignment="Left" Grid.Row="3" VerticalAlignment="Top" Height="26" Width="96"/>
+                    <ComboBox x:Name="DataBits_2_CB" Grid.Column="4" HorizontalAlignment="Left" Grid.Row="3" VerticalAlignment="Top" Width="120" Height="22"/>
+                    <Label Content="Количество стоп-бит" Grid.Column="3" HorizontalAlignment="Left" Grid.Row="4" VerticalAlignment="Top" Height="26" Width="126"/>
+                    <ComboBox x:Name="StopBits_2_CB" Grid.Column="4" HorizontalAlignment="Left" Grid.Row="4" VerticalAlignment="Top" Width="120" Height="22"/>
+                    <Label Content="Паритет" Grid.Column="3" HorizontalAlignment="Left" Grid.Row="5" VerticalAlignment="Top" Height="26" Width="55"/>
+                    <ComboBox x:Name="Parity_2_CB" Grid.Column="4" HorizontalAlignment="Left" Grid.Row="5" VerticalAlignment="Top" Width="120" Height="22"/>
+                    <TextBox x:Name="Directory_TB" Grid.Column="2" HorizontalAlignment="Left" Height="23" Grid.Row="6" TextWrapping="Wrap" VerticalAlignment="Top" Width="326" Grid.ColumnSpan="3"/>
+                    <Label Content="Каталог программы" Grid.Column="1" HorizontalAlignment="Left" Margin="0,1,0,0" Grid.Row="6" VerticalAlignment="Top" RenderTransformOrigin="-8.692,-1.846"/>
+                    <Button x:Name="GetDirectory_Btn" Content="..." Grid.Column="4" HorizontalAlignment="Left" Margin="72,0,0,0" Grid.Row="6" VerticalAlignment="Top" Width="48" Height="22" Click="GetDirectory_Btn_Click"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Window>

@@ -1,0 +1,11 @@
+D:\Visual Studio 2012\Projects\ModbusRTU\ImitatorSAM\bin\Debug\ImitatorSAM.exe.config
+D:\Visual Studio 2012\Projects\ModbusRTU\ImitatorSAM\bin\Debug\ImitatorSAM.exe
+D:\Visual Studio 2012\Projects\ModbusRTU\ImitatorSAM\bin\Debug\ImitatorSAM.pdb
+D:\Visual Studio 2012\Projects\ModbusRTU\ImitatorSAM\bin\Debug\ModbusSP.dll
+D:\Visual Studio 2012\Projects\ModbusRTU\ImitatorSAM\bin\Debug\ModbusSP.pdb
+D:\Visual Studio 2012\Projects\ModbusRTU\ImitatorSAM\obj\Debug\ImitatorSAM.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2012\Projects\ModbusRTU\ImitatorSAM\obj\Debug\ImitatorSAM.MainForm.resources
+D:\Visual Studio 2012\Projects\ModbusRTU\ImitatorSAM\obj\Debug\ImitatorSAM.Properties.Resources.resources
+D:\Visual Studio 2012\Projects\ModbusRTU\ImitatorSAM\obj\Debug\ImitatorSAM.csproj.GenerateResource.Cache
+D:\Visual Studio 2012\Projects\ModbusRTU\ImitatorSAM\obj\Debug\ImitatorSAM.exe
+D:\Visual Studio 2012\Projects\ModbusRTU\ImitatorSAM\obj\Debug\ImitatorSAM.pdb

@@ -1,0 +1,58 @@
+D:\Development\C#\ModbusRTU\MonitorMeasDev\bin\Release\MonitorMeasDev.exe.config
+D:\Development\C#\ModbusRTU\MonitorMeasDev\bin\Release\MonitorMeasDev.exe
+D:\Development\C#\ModbusRTU\MonitorMeasDev\bin\Release\MonitorMeasDev.pdb
+D:\Development\C#\ModbusRTU\MonitorMeasDev\bin\Release\ModbusSP.dll
+D:\Development\C#\ModbusRTU\MonitorMeasDev\bin\Release\ModbusSP.pdb
+D:\Development\C#\ModbusRTU\MonitorMeasDev\obj\Release\MonitorMeasDev.csprojResolveAssemblyReference.cache
+D:\Development\C#\ModbusRTU\MonitorMeasDev\obj\Release\MonitorMeasDev.MainForm.resources
+D:\Development\C#\ModbusRTU\MonitorMeasDev\obj\Release\MonitorMeasDev.Properties.Resources.resources
+D:\Development\C#\ModbusRTU\MonitorMeasDev\obj\Release\MonitorMeasDev.csproj.GenerateResource.Cache
+D:\Development\C#\ModbusRTU\MonitorMeasDev\obj\Release\MonitorMeasDev.exe
+D:\Development\C#\ModbusRTU\MonitorMeasDev\obj\Release\MonitorMeasDev.pdb
+C:\Users\Шарапов\Desktop\ModbusRTU\MonitorMeasDev\bin\Release\MonitorMeasDev.exe.config
+C:\Users\Шарапов\Desktop\ModbusRTU\MonitorMeasDev\bin\Release\MonitorMeasDev.exe
+C:\Users\Шарапов\Desktop\ModbusRTU\MonitorMeasDev\bin\Release\MonitorMeasDev.pdb
+C:\Users\Шарапов\Desktop\ModbusRTU\MonitorMeasDev\bin\Release\ModbusSP.dll
+C:\Users\Шарапов\Desktop\ModbusRTU\MonitorMeasDev\bin\Release\ModbusSP.pdb
+C:\Users\Шарапов\Desktop\ModbusRTU\MonitorMeasDev\obj\Release\MonitorMeasDev.csprojResolveAssemblyReference.cache
+C:\Users\Шарапов\Desktop\ModbusRTU\MonitorMeasDev\obj\Release\MonitorMeasDev.MainForm.resources
+C:\Users\Шарапов\Desktop\ModbusRTU\MonitorMeasDev\obj\Release\MonitorMeasDev.Properties.Resources.resources
+C:\Users\Шарапов\Desktop\ModbusRTU\MonitorMeasDev\obj\Release\MonitorMeasDev.csproj.GenerateResource.Cache
+C:\Users\Шарапов\Desktop\ModbusRTU\MonitorMeasDev\obj\Release\MonitorMeasDev.exe
+C:\Users\Шарапов\Desktop\ModbusRTU\MonitorMeasDev\obj\Release\MonitorMeasDev.pdb
+C:\Users\Шарапов\Desktop\ModbusRTU\MonitorMeasDev\bin\Release\ru\ZedGraph.resources.dll
+D:\Visual Studio 2012\Projects\ModbusRTU\MonitorMeasDev\bin\Release\MonitorMeasDev.exe.config
+D:\Visual Studio 2012\Projects\ModbusRTU\MonitorMeasDev\obj\Release\MonitorMeasDev.exe
+D:\Visual Studio 2012\Projects\ModbusRTU\MonitorMeasDev\obj\Release\MonitorMeasDev.pdb
+D:\Visual Studio 2012\Projects\ModbusRTU\MonitorMeasDev\bin\Release\MonitorMeasDev.exe
+D:\Visual Studio 2012\Projects\ModbusRTU\MonitorMeasDev\bin\Release\MonitorMeasDev.pdb
+D:\Visual Studio 2012\Projects\ModbusRTU\MonitorMeasDev\bin\Release\ModbusSP.dll
+D:\Visual Studio 2012\Projects\ModbusRTU\MonitorMeasDev\bin\Release\ModbusSP.pdb
+D:\Visual Studio 2012\Projects\ModbusRTU\MonitorMeasDev\obj\Release\MonitorMeasDev.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2012\Projects\ModbusRTU\MonitorMeasDev\obj\Release\MonitorMeasDev.MainForm.resources
+D:\Visual Studio 2012\Projects\ModbusRTU\MonitorMeasDev\obj\Release\MonitorMeasDev.Properties.Resources.resources
+D:\Visual Studio 2012\Projects\ModbusRTU\MonitorMeasDev\obj\Release\MonitorMeasDev.csproj.GenerateResource.Cache
+D:\Visual Studio 2012\Projects\ModbusRTU\MonitorMeasDev\bin\Release\MonitorMeasDev.exe.manifest
+D:\Visual Studio 2012\Projects\ModbusRTU\MonitorMeasDev\bin\Release\MonitorMeasDev.application
+D:\Visual Studio 2012\Projects\ModbusRTU\MonitorMeasDev\obj\Release\MonitorMeasDev.exe.manifest
+D:\Visual Studio 2012\Projects\ModbusRTU\MonitorMeasDev\obj\Release\MonitorMeasDev.application
+D:\Visual Studio 2012\Projects\ModbusRTU\MonitorMeasDev\obj\Release\MonitorMeasDev.Form2.resources
+D:\3013\2018\ModbusRTU\MonitorMeasDev\bin\Release\MonitorMeasDev.exe.config
+D:\3013\2018\ModbusRTU\MonitorMeasDev\obj\Release\MonitorMeasDev.exe
+D:\3013\2018\ModbusRTU\MonitorMeasDev\obj\Release\MonitorMeasDev.pdb
+D:\3013\2018\ModbusRTU\MonitorMeasDev\bin\Release\MonitorMeasDev.exe.manifest
+D:\3013\2018\ModbusRTU\MonitorMeasDev\bin\Release\MonitorMeasDev.application
+D:\3013\2018\ModbusRTU\MonitorMeasDev\bin\Release\MonitorMeasDev.exe
+D:\3013\2018\ModbusRTU\MonitorMeasDev\bin\Release\MonitorMeasDev.pdb
+D:\3013\2018\ModbusRTU\MonitorMeasDev\bin\Release\ModbusSP.dll
+D:\3013\2018\ModbusRTU\MonitorMeasDev\bin\Release\ModbusSP.pdb
+D:\3013\2018\ModbusRTU\MonitorMeasDev\obj\Release\MonitorMeasDev.csprojResolveAssemblyReference.cache
+D:\3013\2018\ModbusRTU\MonitorMeasDev\obj\Release\MonitorMeasDev.Form2.resources
+D:\3013\2018\ModbusRTU\MonitorMeasDev\obj\Release\MonitorMeasDev.MainForm.resources
+D:\3013\2018\ModbusRTU\MonitorMeasDev\obj\Release\MonitorMeasDev.Properties.Resources.resources
+D:\3013\2018\ModbusRTU\MonitorMeasDev\obj\Release\MonitorMeasDev.csproj.GenerateResource.Cache
+D:\3013\2018\ModbusRTU\MonitorMeasDev\obj\Release\MonitorMeasDev.exe.manifest
+D:\3013\2018\ModbusRTU\MonitorMeasDev\obj\Release\MonitorMeasDev.application
+Z:\ОНиД\Шарапов\2019\пульт\ModbusRTU\MonitorMeasDev\bin\Release\MonitorMeasDev.exe.config
+Z:\ОНиД\Шарапов\2019\пульт\ModbusRTU\MonitorMeasDev\obj\Release\MonitorMeasDev.exe
+Z:\ОНиД\Шарапов\2019\пульт\ModbusRTU\MonitorMeasDev\obj\Release\MonitorMeasDev.pdb

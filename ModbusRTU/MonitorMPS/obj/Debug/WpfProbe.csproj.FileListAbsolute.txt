@@ -1,0 +1,14 @@
+D:\Development\C#\WpfProbe\WpfProbe\bin\Debug\WpfProbe.exe.config
+D:\Development\C#\WpfProbe\WpfProbe\bin\Debug\WpfProbe.exe
+D:\Development\C#\WpfProbe\WpfProbe\bin\Debug\WpfProbe.pdb
+D:\Development\C#\WpfProbe\WpfProbe\obj\Debug\WpfProbe.csprojResolveAssemblyReference.cache
+D:\Development\C#\WpfProbe\WpfProbe\obj\Debug\MainWindow.baml
+D:\Development\C#\WpfProbe\WpfProbe\obj\Debug\MainWindow.g.cs
+D:\Development\C#\WpfProbe\WpfProbe\obj\Debug\App.g.cs
+D:\Development\C#\WpfProbe\WpfProbe\obj\Debug\WpfProbe_MarkupCompile.cache
+D:\Development\C#\WpfProbe\WpfProbe\obj\Debug\WpfProbe.g.resources
+D:\Development\C#\WpfProbe\WpfProbe\obj\Debug\WpfProbe.Properties.Resources.resources
+D:\Development\C#\WpfProbe\WpfProbe\obj\Debug\WpfProbe.csproj.GenerateResource.Cache
+D:\Development\C#\WpfProbe\WpfProbe\obj\Debug\WpfProbe.exe
+D:\Development\C#\WpfProbe\WpfProbe\obj\Debug\WpfProbe.pdb
+D:\Development\C#\WpfProbe\WpfProbe\bin\Debug\MonitorMPS.exe.config

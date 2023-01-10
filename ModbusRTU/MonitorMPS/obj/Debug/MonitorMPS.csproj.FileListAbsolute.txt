@@ -1,0 +1,29 @@
+D:\Development\C#\MonitorMPS\WpfProbe\bin\Debug\MonitorMPS.exe.config
+D:\Development\C#\MonitorMPS\MonitorMPS\bin\Debug\MonitorMPS.exe.config
+D:\Development\C#\MonitorMPS\MonitorMPS\obj\Debug\MonitorMPS.csprojResolveAssemblyReference.cache
+D:\Development\C#\MonitorMPS\MonitorMPS\obj\Debug\MainWindow.baml
+D:\Development\C#\MonitorMPS\MonitorMPS\obj\Debug\MainWindow.g.cs
+D:\Development\C#\MonitorMPS\MonitorMPS\obj\Debug\App.g.cs
+D:\Development\C#\MonitorMPS\MonitorMPS\obj\Debug\MonitorMPS_MarkupCompile.cache
+D:\Development\C#\MonitorMPS\MonitorMPS\obj\Debug\MonitorMPS.g.resources
+D:\Development\C#\MonitorMPS\MonitorMPS\obj\Debug\MonitorMPS.Properties.Resources.resources
+D:\Development\C#\MonitorMPS\MonitorMPS\obj\Debug\MonitorMPS.csproj.GenerateResource.Cache
+D:\Development\C#\MonitorMPS\MonitorMPS\bin\Debug\MonitorMPS.exe
+D:\Development\C#\MonitorMPS\MonitorMPS\bin\Debug\MonitorMPS.pdb
+D:\Development\C#\MonitorMPS\MonitorMPS\obj\Debug\MonitorMPS.exe
+D:\Development\C#\MonitorMPS\MonitorMPS\obj\Debug\MonitorMPS.pdb
+D:\Visual Studio 2012\Projects\ModbusRTU\MonitorMPS\bin\Debug\MonitorMPS.exe.config
+D:\Visual Studio 2012\Projects\ModbusRTU\MonitorMPS\bin\Debug\MonitorMPS.exe
+D:\Visual Studio 2012\Projects\ModbusRTU\MonitorMPS\bin\Debug\MonitorMPS.pdb
+D:\Visual Studio 2012\Projects\ModbusRTU\MonitorMPS\bin\Debug\ModbusSP.dll
+D:\Visual Studio 2012\Projects\ModbusRTU\MonitorMPS\bin\Debug\ModbusSP.pdb
+D:\Visual Studio 2012\Projects\ModbusRTU\MonitorMPS\obj\Debug\MonitorMPS.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2012\Projects\ModbusRTU\MonitorMPS\obj\Debug\MainWindow.baml
+D:\Visual Studio 2012\Projects\ModbusRTU\MonitorMPS\obj\Debug\MainWindow.g.cs
+D:\Visual Studio 2012\Projects\ModbusRTU\MonitorMPS\obj\Debug\App.g.cs
+D:\Visual Studio 2012\Projects\ModbusRTU\MonitorMPS\obj\Debug\MonitorMPS_MarkupCompile.cache
+D:\Visual Studio 2012\Projects\ModbusRTU\MonitorMPS\obj\Debug\MonitorMPS.g.resources
+D:\Visual Studio 2012\Projects\ModbusRTU\MonitorMPS\obj\Debug\MonitorMPS.Properties.Resources.resources
+D:\Visual Studio 2012\Projects\ModbusRTU\MonitorMPS\obj\Debug\MonitorMPS.csproj.GenerateResource.Cache
+D:\Visual Studio 2012\Projects\ModbusRTU\MonitorMPS\obj\Debug\MonitorMPS.exe
+D:\Visual Studio 2012\Projects\ModbusRTU\MonitorMPS\obj\Debug\MonitorMPS.pdb

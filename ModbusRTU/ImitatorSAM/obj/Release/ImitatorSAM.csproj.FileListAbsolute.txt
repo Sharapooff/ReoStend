@@ -1,0 +1,33 @@
+D:\Development\C#\ModbusRTU\ImitatorSAM\obj\Release\ImitatorSAM.csprojResolveAssemblyReference.cache
+D:\Development\C#\ModbusRTU\ImitatorSAM\obj\Release\ImitatorSAM.MainForm.resources
+D:\Development\C#\ModbusRTU\ImitatorSAM\obj\Release\ImitatorSAM.Properties.Resources.resources
+D:\Development\C#\ModbusRTU\ImitatorSAM\obj\Release\ImitatorSAM.csproj.GenerateResource.Cache
+D:\Development\C#\ModbusRTU\ImitatorSAM\bin\Release\ImitatorSAM.exe.config
+D:\Development\C#\ModbusRTU\ImitatorSAM\bin\Release\ImitatorSAM.exe
+D:\Development\C#\ModbusRTU\ImitatorSAM\bin\Release\ImitatorSAM.pdb
+D:\Development\C#\ModbusRTU\ImitatorSAM\bin\Release\ModbusSP.dll
+D:\Development\C#\ModbusRTU\ImitatorSAM\bin\Release\ModbusSP.pdb
+D:\Development\C#\ModbusRTU\ImitatorSAM\obj\Release\ImitatorSAM.exe
+D:\Development\C#\ModbusRTU\ImitatorSAM\obj\Release\ImitatorSAM.pdb
+C:\Users\Шарапов\Desktop\ModbusRTU\ImitatorSAM\bin\Release\ImitatorSAM.exe.config
+C:\Users\Шарапов\Desktop\ModbusRTU\ImitatorSAM\obj\Release\ImitatorSAM.exe
+C:\Users\Шарапов\Desktop\ModbusRTU\ImitatorSAM\obj\Release\ImitatorSAM.pdb
+C:\Users\Шарапов\Desktop\ModbusRTU\ImitatorSAM\bin\Release\ImitatorSAM.exe
+C:\Users\Шарапов\Desktop\ModbusRTU\ImitatorSAM\bin\Release\ImitatorSAM.pdb
+C:\Users\Шарапов\Desktop\ModbusRTU\ImitatorSAM\bin\Release\ModbusSP.dll
+C:\Users\Шарапов\Desktop\ModbusRTU\ImitatorSAM\bin\Release\ModbusSP.pdb
+C:\Users\Шарапов\Desktop\ModbusRTU\ImitatorSAM\obj\Release\ImitatorSAM.csprojResolveAssemblyReference.cache
+C:\Users\Шарапов\Desktop\ModbusRTU\ImitatorSAM\obj\Release\ImitatorSAM.MainForm.resources
+C:\Users\Шарапов\Desktop\ModbusRTU\ImitatorSAM\obj\Release\ImitatorSAM.Properties.Resources.resources
+C:\Users\Шарапов\Desktop\ModbusRTU\ImitatorSAM\obj\Release\ImitatorSAM.csproj.GenerateResource.Cache
+D:\Visual Studio 2012\Projects\ModbusRTU\ImitatorSAM\bin\Release\ImitatorSAM.exe.config
+D:\Visual Studio 2012\Projects\ModbusRTU\ImitatorSAM\bin\Release\ImitatorSAM.exe
+D:\Visual Studio 2012\Projects\ModbusRTU\ImitatorSAM\bin\Release\ImitatorSAM.pdb
+D:\Visual Studio 2012\Projects\ModbusRTU\ImitatorSAM\bin\Release\ModbusSP.dll
+D:\Visual Studio 2012\Projects\ModbusRTU\ImitatorSAM\bin\Release\ModbusSP.pdb
+D:\Visual Studio 2012\Projects\ModbusRTU\ImitatorSAM\obj\Release\ImitatorSAM.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2012\Projects\ModbusRTU\ImitatorSAM\obj\Release\ImitatorSAM.MainForm.resources
+D:\Visual Studio 2012\Projects\ModbusRTU\ImitatorSAM\obj\Release\ImitatorSAM.Properties.Resources.resources
+D:\Visual Studio 2012\Projects\ModbusRTU\ImitatorSAM\obj\Release\ImitatorSAM.csproj.GenerateResource.Cache
+D:\Visual Studio 2012\Projects\ModbusRTU\ImitatorSAM\obj\Release\ImitatorSAM.exe
+D:\Visual Studio 2012\Projects\ModbusRTU\ImitatorSAM\obj\Release\ImitatorSAM.pdb
